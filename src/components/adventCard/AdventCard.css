@@ -1,0 +1,92 @@
+.card {
+    height: 500px;
+    background-color: #EED372;
+
+    padding-top: 2rem;
+    overflow: hidden;
+}
+
+.card__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.avatar {
+    grid-column: 2/5;
+    width: 225px;
+    justify-self: center
+}
+
+.text {
+    grid-column: 5/12
+}
+
+    .text #first-line {
+        display: flex
+    }
+
+.text__title {
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center
+}
+
+.quote {
+    margin: 25px 75px 25px 75px;
+    padding: 20px;
+    background-color: #C4C4C4;
+    border-radius: 10px
+}
+
+.quote__text__author {
+    justify-self: end;
+    text-align: end
+}
+
+/* TEXT SECTION */
+
+.text__wrapper {
+    display: flex;
+    align-items: center;
+    height: 50px
+}
+
+    .text__wrapper#first-line {
+        width: 50%
+    }
+
+.text__index {
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 20px
+}
+
+.text__content {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'iCiel Cucho'
+}
+
+/* SOCIALS */
+.socials { /* Add margin */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.8rem;
+    /* position: absolute; */
+    /* left: 0;
+    bottom: 3rem; */
+}
+
+    .socials::after {
+        content: '';
+        width: 1px;
+        height: 2rem;
+        /* background: ; */
+    }
+
+/* SCROLL DOWN */
+/* .scroll_down {
+
+} */
